@@ -1,0 +1,178 @@
+
+.one-gradient-container {
+    background: linear-gradient(300deg, #DDE6ED, #526D82, #9DB2BF);
+    background-size: 170% 170%;
+    animation: gradient-animation 18s ease infinite;
+    height:690px;
+    font-family:Futura PT,sans-serif;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    
+}
+
+.text-top{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height:80vh;
+    color:white;
+    
+    
+}
+
+.text-top h1{
+    font-size:6rem;
+    margin-bottom:3rem;
+    margin-top:1rem;
+    font-weight:bold;
+
+}
+
+.text-top h4{
+    font-size:3rem;
+    font-weight:300;
+}
+
+.computer-logo{
+    margin-top:8rem;
+}
+
+.carousel-mid {
+    margin: 4rem;
+    display:flex;
+    flex-direction: column;
+    height:80vh;
+    align-items:center;
+    text-align: center;
+}
+
+.profile-pic{
+    height:300px;
+    width:300px;
+    border-radius:80%;
+    margin-bottom:2rem;
+}
+
+.carousel-mid h1{
+    margin-bottom:2rem;
+    font-size:3rem;
+    font-family:Futura PT,sans-serif;
+    font-weight:650;
+}
+
+.carousel-mid p{
+    font-size:1.5rem;
+}
+
+.carousel-mid .skills-h1{
+    margin-top:7rem;
+}
+
+.grid-mid{
+    display:grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 300px 500px;
+    gap:80px;
+    margin-bottom:-100px;
+}
+
+.grid-mid img{
+    width:300px;
+    height:300px;
+}
+
+.grid-mid p{
+    text-align:left;
+    font-size:20px;
+    margin-top:50px;
+}
+
+.grid-mid .title{
+    font-weight:bold;
+
+}
+
+.grid-mid .photo-two{
+    margin-top:30px;
+    height:200px;
+}
+.carousel-mid .class-mid-3 h1{
+    font-weight:bold;
+    font-family:Futura PT,sans-serif;
+}
+.carousel-mid .class-mid-3 h2{
+    font-weight:400;
+    margin-bottom:2rem;
+}
+.carousel-mid .class-mid-3 p{
+    font-weight:200;
+    margin-bottom:2rem;
+}
+
+.three-gradient-container{
+    background: linear-gradient(300deg, #DDE6ED, #526D82, #9DB2BF);
+    background-size: 170% 170%;
+    animation: gradient-animation 18s ease infinite;
+    height:690px;
+    width:107.2%;
+    padding:50px;
+    margin-top:50px;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+.three-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:10vh;
+}
+
+.three-container li{
+    display:inline-block;
+    margin-bottom:20px;
+    margin-right:50px;
+    color:#27374D;
+    font-size:1.2rem;
+}
+
+.three-container p{
+    font-weight:light;
+    font-size:1rem;
+    color:white;
+}
+
+.three-container a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+
+
+
